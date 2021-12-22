@@ -1,0 +1,106 @@
+TITLE
+[NEXT SLIDE]
+
+SPECIAL THANKS
+[NEXT SLIDE]
+
+
+OPENING REMARKS
+
+Good afternoon everyone today I'll present to the panel of examiners the paper titled
+"Google meet's performance across variety of internet condition"
+
+It is a privilege to work on one of the most influential software of our time, as an IT student, and my growing curiosity paved the way on diving into the rabbit hole of video conferencing and specifically google meet. While at it this study incorporates new ways of gathering and analyzing huge datasets at fast and accurate way, this study set a common foundation on using new technologies for accuracy, implementation and as well indispensable experience that can be used in present and future studies.
+
+[NEXT SLIDE]
+
+
+INTRODUCTION
+	
+	Wow! almost two years have passed since we migrate to remote learning and in such a short period of time, there are a lot of innovations and challenges we as a collective achieve. It is a sight to behold that things like this are even possible, the unprecedented technological revolution still happening in our time. With that in mind, my study focuses on video conferencing software namely Google meet. I investigate its capabilities and quality of service as a coherent single entity software, the discovery of its implications and the growing need for a better more reliable internet connection while still developing new forms of compressing data in efficient ways. 
+	
+[NEXT SLIDE]
+	
+	There's an ever-growing need for reliable video conferencing software than ever before, that would fulfill these roles especially
+	
+[NEXT SLIDE]
+
+	Google meet positions itself as a competitor in the video conferencing space, by offering a suite of products with vertical integration into the ecosystem. What this means is a pleasant and user-friendly experience. This ecosystem is called gsuite. It includes Gmeet, Gmail, Gclass, and web based office application that rivals Microsoft suite. Google's influence, especially on Mobile devices, is an understatement, more than 95% of all android devices rely on Google services in order to function properly while driving users to its well known search engine. This positions Google, subsequently google Meet to a much favorable ground than other products. As people look for ease of use and tight integration to their chosen ecosystem.
+	
+[NEXT SLIDE]
+
+	
+	It is evident that our network infrastructure is not ready, just think of the time when your youtube video lags or when your video conference cuts out. These issues are further exacerbated by a sudden increase in network traffic in the last two years and the fact that building and upgrading critical network infrastructure takes years even decades. We are at disadvantage on the subject of connectivity.
+	
+[NEXT SLIDE]
+
+	This of course causes user frustration to everyone.
+	
+[NEXT SLIDE]
+
+	
+OBJECTIVES
+
+The studies objectives are as follows
+
+*First, postulate testing principle - this includes planning and hypothesis testing. While continuing to improve the said principle.
+
+*Second, Evaluate google meet performance - the principles set forth would be an indispensable tool on scientifically measuring Google meet performance and qos.
+
+*Third, determining the variables that affect meet - which includes analysis of network models including the osi framework
+
+*Fourth, Develop a working theory based on this effect
+
+*Fifth, Establish the adverse impact of slow internet speed and high latency on Meet
+
+*Lastly, Discussing the positive effect of slow internet speed and latency on Meet
+
+[NEXT SLIDE]
+
+DATA COLLECTION
+
+	 This started by joining a normal google meet session that runs on firefox while the experimenter would carefully monitor the performance metric and log each occurrence on a paper, and at the same time, the experimenter would also start the data logging process using the terminal. After the session, the data collected by the terminal would be refined by featherpad in the 3rd step, at 4th the refine data collected would be saved as csv file using libreoffice calc and finally this data would be imported to R statistical software for where it'll be analyzed and interpreted.
+	 
+[NEXT SLIDE]
+
+
+VARIABLES
+
+	There are two independent variables in this study, namely latency which is measured in milliseconds. This is the round trip time a packet of data goes through. While Internet speed is the summation of upload and download speed. Finally, the dependent variable is the Google meet performance that is composed of Total drop time, audio cache miss, video cache miss, fps drop and total data usage.
+	
+[NEXT SLIDE]
+	
+RESULTS
+
+	At the end of the experiment, I saw a general positive linear trend on the dependent variable when pitted against the independent variable. This is composed of 4 treatment groups with differing internet speeds accompanied by 327,753 datapoints. The end results are a strong positive linear correlation hence an r value of 0.9683 in Pearson correlation test and a p value of 0.0024 lower than 0.05 threshold
+	
+[NNEXT SLIDE]
+
+	
+LIMITATIIONS
+
+*single point sampling - I conduct the experiment on a single device hence, limiting the scope to individual device performance, as it is improbable to borrow a couple of dozen of computers all at the same time.
+
+*non linear behaviour of the dependent variable pass the performance plateau - which makes Google Meet capability a bit complex than anticipated.
+
+*hardware limitations
+
+[NEXT SLIDE]
+
+	
+CONCLUSION
+
+	1. Google meet is resilient - despite dropping below accepted performance metric, in most of the cases, Google meet's ability to dynamically change its video and audio codec and bitrate makes it pretty resilient on unstable internet connection.
+	2. Synthetically slowing down internet speed might lead to data and electrical savings- this behaviour is not well understood but the study's experiment results lead us to this conclusion with subjective quality of service. since every people have a different perception of lag
+	3. Google Meet performance is influenced by the independent variables in a nonlinear way (curve) - this is evident past the performance plateau thus, suggesting that a performance curve should be formulated in future studies.
+	
+	END
+	
+	
+	
+	
+	
+	
+	
+	
+	
